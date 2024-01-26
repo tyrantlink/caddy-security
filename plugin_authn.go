@@ -22,7 +22,7 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
-	"github.com/greenpau/caddy-security/pkg/util"
+	"github.com/tyrantlink/caddy-security/pkg/util"
 	"github.com/tyrantlink/go-authcrunch/pkg/authn"
 	"github.com/tyrantlink/go-authcrunch/pkg/requests"
 )
