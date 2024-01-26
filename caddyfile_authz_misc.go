@@ -17,8 +17,8 @@ package security
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/go-authcrunch/pkg/authz"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
+	"github.com/tyrantlink/go-authcrunch/pkg/authz"
+	cfgutil "github.com/tyrantlink/go-authcrunch/pkg/util/cfg"
 	"strconv"
 	"strings"
 )

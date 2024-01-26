@@ -22,6 +22,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           path-to-signatures: 'assets/cla/signatures.json'
-          path-to-document: 'https://github.com/greenpau/go-authcrunch/blob/main/assets/cla/CLA.md'
+          path-to-document: 'https://github.com/tyrantlink/go-authcrunch/blob/main/assets/cla/CLA.md'
           branch: 'main'
           allowlist: greenpau,bot*

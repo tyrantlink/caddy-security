@@ -19,12 +19,12 @@ import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/greenpau/caddy-security/pkg/util"
-	"github.com/greenpau/go-authcrunch"
-	"github.com/greenpau/go-authcrunch/pkg/authn"
-	"github.com/greenpau/go-authcrunch/pkg/authn/cookie"
-	"github.com/greenpau/go-authcrunch/pkg/authn/ui"
-	"github.com/greenpau/go-authcrunch/pkg/authz/options"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
+	"github.com/tyrantlink/go-authcrunch"
+	"github.com/tyrantlink/go-authcrunch/pkg/authn"
+	"github.com/tyrantlink/go-authcrunch/pkg/authn/cookie"
+	"github.com/tyrantlink/go-authcrunch/pkg/authn/ui"
+	"github.com/tyrantlink/go-authcrunch/pkg/authz/options"
+	"github.com/tyrantlink/go-authcrunch/pkg/errors"
 	"strings"
 )
 

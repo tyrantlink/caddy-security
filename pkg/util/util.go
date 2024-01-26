@@ -18,7 +18,7 @@ import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/google/uuid"
-	"github.com/greenpau/go-authcrunch/pkg/util/cfg"
+	"github.com/tyrantlink/go-authcrunch/pkg/util/cfg"
 	"net/http"
 )
 

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/go-authcrunch/pkg/authn"
-	"github.com/greenpau/go-authcrunch/pkg/authn/cookie"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
+	"github.com/tyrantlink/go-authcrunch/pkg/authn"
+	"github.com/tyrantlink/go-authcrunch/pkg/authn/cookie"
+	cfgutil "github.com/tyrantlink/go-authcrunch/pkg/util/cfg"
 	"strconv"
 	"strings"
 )

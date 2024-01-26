@@ -17,9 +17,9 @@ package security
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/go-authcrunch/pkg/authz"
-	"github.com/greenpau/go-authcrunch/pkg/authz/bypass"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
+	"github.com/tyrantlink/go-authcrunch/pkg/authz"
+	"github.com/tyrantlink/go-authcrunch/pkg/authz/bypass"
+	cfgutil "github.com/tyrantlink/go-authcrunch/pkg/util/cfg"
 )
 
 func parseCaddyfileAuthorizationBypass(h *caddyfile.Dispenser, repl *caddy.Replacer, p *authz.PolicyConfig, rootDirective string, args []string) error {
